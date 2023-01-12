@@ -18,9 +18,25 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
         'email',
+        'country_code',
+        'mobile_number',
+        'OTP_CODE',
         'password',
+        'first_name',
+        'last_name',
+        'date_of_birth',
+        'place_of_birth',
+        'gender',
+        'country_of_residency',
+        'passport_no',
+        'issue_date',
+        'expiry_date',
+        'place_of_issue',
+        'profession',
+        'organization',
+        'has_companion',
+        'user_type',
     ];
 
     /**
@@ -41,4 +57,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * Get the visa associated with the user.
+     */
+    public function visa()
+    {
+        return $this->hasOne(Visa::class);
+    }
 }
