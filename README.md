@@ -1,17 +1,49 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# <span style="color: green;"> Visa Bookings Platform </span>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### This is a demo project about booking a visa and a hotel room the idea of the project is as follows:
 
-## About Laravel
+1- The guest registers on the platform by entering his e-mail and a password like the Image below:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![Register - Google Chrome 5_17_2023 3_18_09 PM](https://github.com/FarahJak/Visa-Bookings-Platform/assets/114393666/b48d215e-acf1-476b-a613-ccf209467327)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
+2- After that, an email will be sent to the guest, the contents of the email, a welcome message with a link to complete the required data.
+
+3- When the guest clicks on the data completion link, he is taken to the requested page, which will look like the image below:
+
+![Mobile Number Verification - Google Chrome 5_17_2023 3_27_37 PM](https://github.com/FarahJak/Visa-Bookings-Platform/assets/114393666/45072985-b2c6-436e-8522-0eb1815e657b)
+
+   - Some features of this page :
+    - The mobile number field only accepts English numbers.
+    - The OTP field accepts - numbers and English letters - and only four characters are accepted 
+   
+4- After clicking on the Next button, you will be taken to the visa data entry page, which will look like the images below:
+
+
+![__ Iconic __ Home - Google Chrome 5_17_2023 3_39_44 PM](https://github.com/FarahJak/Visa-Bookings-Platform/assets/114393666/e67e4fb3-1c5b-4979-95ea-be14ddef2c88)
+
+![__ Iconic __ Home - Google Chrome 5_17_2023 3_40_18 PM](https://github.com/FarahJak/Visa-Bookings-Platform/assets/114393666/eae17c3c-8c85-4600-92da-daf783af2b8b)
+
+   - Some features of this page :
+     - **First Name** & **Last Name** fields : only English letters are accepted.
+     - **Date of Birth** field : A future date cannot be selected.
+     - **Gender** field : Two types only, male or female.
+     - **Place of birth** & **Country of Residency** & **Place of issue** fields : List of world countries.
+     - **Passport No** field : This field accepts English letters and numbers only - a minimum of 6 characters.
+     - **Issue date** field : In this field, a future date cannot be selected.
+     - **Expiry date** & **Arrival date** fields : In these fields, an earlier date cannot be selected.
+     - **Visa duration** field : A list of the number of days from 1 to 90 days.
+     - **Visa status** field : Two types only, multiple or single.
+     - **Are you Traveling with companion (plus one)?** field : Two types only, Yes or No.
+        > If the guest choose The "Yes" option he will have to fill some fields are similler to those we talk aboute them above ,but if he choose the "No" option all the field will be             disabled ,like the Images belowe:
+
+![__ Iconic __ Home - Google Chrome 5_17_2023 5_40_34 PM](https://github.com/FarahJak/Visa-Bookings-Platform/assets/114393666/963eb704-bfe5-4443-ba86-ae7a9523f6e4)
+![__ Iconic __ Home - Google Chrome 5_17_2023 5_40_46 PM](https://github.com/FarahJak/Visa-Bookings-Platform/assets/114393666/ed7519df-55e5-4fd4-8e32-ba21cc1dc26a)
+
+5- 
+
+
+
+<!-- - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 - Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
@@ -61,4 +93,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
